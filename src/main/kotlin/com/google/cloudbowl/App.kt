@@ -32,6 +32,9 @@ class App {
         println(arenaUpdate)
         val commands = arrayOf("F", "R", "L", "T")
         val i = Random().nextInt(4)
+        
+    	// TODO add your implementation here to replace the random response
+        
         return commands[i]
     }
 }
